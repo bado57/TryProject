@@ -1,6 +1,7 @@
+
 $.ajaxSetup({
     type: "post",
-    url: "http://localhost/SProject/Language",
+    url: "http://localhost/Lutimark/Language",
     //timeout:3000,
     dataType: "json",
     error: function (a, b) {
