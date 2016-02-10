@@ -17,7 +17,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="UTF-8">
-    <title>Shuttle</title>
+    <title>Lutimark</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="shortcut icon" href="<?php echo SITE_USERFRONT_IMG; ?>/favicon.png">
@@ -71,12 +71,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <ul class="nav navbar-nav navbar-right">
                                                         <li>
-                                                            <select id="kullaniciLanguage" class="form-control" name="loginselected" required>                                   
-                                                                <option value="ar" <?php echo Session::get('dil') == 'ar' ? 'selected' : ''; ?>>Arabic</option>
-                                                                <option value="zh" <?php echo Session::get('dil') == 'zh' ? 'selected' : ''; ?>>Chinese</option>
+                                                            <select id="kullaniciLanguage" class="form-control" name="loginselected" required>                  
                                                                 <option value="en" <?php echo Session::get('dil') == 'en' ? 'selected' : ''; ?>>English</option>
-                                                                <option value="fr" <?php echo Session::get('dil') == 'fr' ? 'selected' : ''; ?>>French</option>
-                                                                <option value="de" <?php echo Session::get('dil') == 'de' ? 'selected' : ''; ?>>German</option>
                                                                 <option value="tr" <?php echo Session::get('dil') == 'tr' ? 'selected' : ''; ?>>Turkish</option>
                                                             </select>
                                                         </li>
@@ -102,8 +98,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                             <!-- /.container-->
                                         </nav>
-
-
                                         <!--RevSlider-->
                                         <div class="tp-banner-container">
                                             <div class="tp-banner" >
@@ -207,12 +201,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                  data-easing="Power4.easeOut">
                                                                 <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/Slides/family-eco.png" alt="">
                                                             </div>
-
+                                                            
                                                             <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
                                                                 <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
                                                             </div>
-
-
                                                             <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
                                                                 Tüm platformlarda
                                                             </div>

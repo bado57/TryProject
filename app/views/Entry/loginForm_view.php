@@ -91,12 +91,8 @@
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-10">
                     <form role="form" action="<?php echo SITE_URL; ?>/userslogin" method="POST"  id="loginForm"> 
                         <div class="form-group">
-                            <select id="kullaniciLanguage" class="form-control" name="loginselected" required>                                   
-                                <option value="ar" <?php echo Session::get('dil') == 'ar' ? 'selected' : ''; ?>>Arabic</option>
-                                <option value="zh" <?php echo Session::get('dil') == 'zh' ? 'selected' : ''; ?>>Chinese</option>
+                            <select id="kullaniciLanguage" class="form-control" name="loginselected" required>
                                 <option value="en" <?php echo Session::get('dil') == 'en' ? 'selected' : ''; ?>>English</option>
-                                <option value="fr" <?php echo Session::get('dil') == 'fr' ? 'selected' : ''; ?>>French</option>
-                                <option value="de" <?php echo Session::get('dil') == 'de' ? 'selected' : ''; ?>>German</option>
                                 <option value="tr" <?php echo Session::get('dil') == 'tr' ? 'selected' : ''; ?>>Turkish</option>
                             </select>
                         </div>
@@ -106,15 +102,13 @@
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="<?php echo $data["Sifre"]; ?>"  name="usersloginsifre">
                         </div>
+                        
                         <button type="submit" id="loginFrom"><?php echo $data["LoginButton"]; ?></button>
                     </form>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
             </div>
-
-
             <!-- Button trigger modal -->
-
             <script src="<?php echo SITE_USERFRONT_JS; ?>/jquery-1.11.1.min.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
             <script src="<?php echo SITE_URL_DOM; ?>"></script>

@@ -4,10 +4,10 @@
             <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/logo.png" alt="" class="logo">
         </a>
         <div class="social">
-            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
-            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-instagram fa-lg"></i></a>
-            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-youtube fa-lg"></i></a>
+            <a href="https://twitter.com/lutimarketible?lang=tr" target="_blank" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
+            <a href="https://www.facebook.com/lutimark/" target="_blank" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="https://www.instagram.com/lutimark/" target="_blank" class="scrollpoint sp-effect3"><i class="fa fa-instagram fa-lg"></i></a>
+            <a href="https://www.youtube.com/channel/UC1GNdT_IjsVR27ouJ3QvC4A" target="_blank" class="scrollpoint sp-effect3"><i class="fa fa-youtube fa-lg"></i></a>
         </div>
         <div class="rights">
             <p>Lutimark Tüm Hakları Saklıdır. &copy; 2016</p>
