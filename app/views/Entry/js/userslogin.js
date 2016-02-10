@@ -1,4 +1,3 @@
-
 $.ajaxSetup({
     type: "post",
     url: "http://localhost/Lutimark/Language",

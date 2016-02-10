@@ -5,11 +5,12 @@
         </a>
         <div class="social">
             <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
             <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-instagram fa-lg"></i></a>
+            <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-youtube fa-lg"></i></a>
         </div>
         <div class="rights">
-            <p>Copyright &copy; 2014</p>
+            <p>Lutimark Tüm Hakları Saklıdır. &copy; 2016</p>
         </div>
     </div>
 </footer>
