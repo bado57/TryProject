@@ -1,0 +1,101 @@
+.submit-group{display:none;}
+
+form textarea{resize:vertical !important;}
+
+.form-group{margin-bottom:10px;}
+.control-label{text-align:left !important; margin-bottom:5px !important;}
+.panel-logo{max-height:38px; margin-top:5px; margin-left:10px;}
+
+.activeli a{color:green !important;}
+
+.svOpen, .svClose{
+    position:absolute;
+    bottom:0px;
+    background-color: #f9f9f9;
+    z-index: 1000;
+    display:none;
+}
+.svContent{padding-bottom: 20px;}
+.addNewButton{margin-left: 8px;}
+
+.generalInfo{margin-bottom: 30px;}
+
+#mapHeader{
+    position:relative;
+    display:inline-block;
+    float:left;
+    height: auto;
+    width: 100%;
+}
+#multiple_tur_map{
+    position: absolute !important;
+    bottom: 0;
+}
+#multiple_gidis_map{
+    position: absolute !important;
+    bottom: 0;
+}
+#saveMap{margin-right: 10px;}
+
+label input[type="search"]{width: auto !important;}
+
+.multiselect{min-width: 100%}
+
+.mr10 {margin-right: 10px;}
+
+.infobox-wrapper {
+    display:none;
+}
+#infobox {
+    border:2px solid #10CE4F;
+    margin-top: 8px;
+    background-color:#009933;
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding: .5em 1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-shadow:0 -1px #000000;
+    -webkit-box-shadow: 0 0  8px #000;
+    box-shadow: 0 0 8px #000;
+}
+
+.infobox-gidis-wrapper {
+    display:none;
+}
+#infoboxGidis {
+    border:2px solid #10CE4F;
+    margin-top: 8px;
+    background-color:#009933;
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding: .5em 1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-shadow:0 -1px #000000;
+    -webkit-box-shadow: 0 0  8px #000;
+    box-shadow: 0 0 8px #000;
+}
+
+.infobox-donus-wrapper {
+    display:none;
+}
+#infoboxDonus {
+    border:2px solid #10CE4F;
+    margin-top: 8px;
+    background-color:#009933;
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding: .5em 1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-shadow:0 -1px #000000;
+    -webkit-box-shadow: 0 0  8px #000;
+    box-shadow: 0 0 8px #000;
+}
