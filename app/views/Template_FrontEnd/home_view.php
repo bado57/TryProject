@@ -9,32 +9,32 @@
                 <p><b style="color:#009933">Lutimark</b>, uygulamasını Android ve IOS işletim sistemine sahip olan tüm tablet ve mobil cihazlarınıza ücretsiz olarak yükleyebilir ve bir çok marketin en güncel indirimli ürünlerini takip edebilir, market market dolaşmaktan kurtulabilirsiniz.</p>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <div class="about-item scrollpoint sp-effect2">
-                        <i class="fa fa-mobile fa-2x"></i>
-                        <h3>Kolay Kullanım</h3>
-                        <p>Shuttle, servis araçlarının takibi için ekstra bir cihaz gerektirmez. Akıllı telefon, Tablet ya da bilgisayarınızdan giriş yaparak uygulamayı kullanabilirsiniz.</p>
+                <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="about-item scrollpoint sp-effect5">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <h3>Lokasyon Belirle</h3>
+                        <p>Lutimark ile konumunuzu belirleyerek size en yakın popüler market ve süpermarketlerin indirimlerini anında görüntüleyebilirsiniz.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect5">
-                        <i class="fa fa-road fa-2x"></i>
-                        <h3>En Kısa Yol</h3>
-                        <p>Shuttle, her bir sefer için gelecek ve gelmeyecek olan yolcuların listesini baz alarak en kısa yolu sürücülere gösterir. Böylelikle yakıttan ve zamandan tasarruf sağlar.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-6" >
-                    <div class="about-item scrollpoint sp-effect5">
-                        <i class="fa fa-clock-o fa-2x"></i>
-                        <h3>Beklemeye Son</h3>
-                        <p>Shuttle, Servis aracı yolcunun bineceği yere yaklaştığında yolcuya uyarı vererek özellikle soğuk havalarda dışarıda servis bekleme problemini ortadan kaldırır. </p>
+                        <i class="fa fa-comments fa-2x"></i>
+                        <h3>Bildirimleri Al</h3>
+                        <p>Lutimark ile kayıtlı tüm popüler market ve süpermarketlerin indirimli ürünlerini anında öğrenebilir, ürünleri detaylı inceleyebilirsiniz  . </p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect1">
-                        <i class="fa fa-comments fa-2x"></i>
-                        <h3>Anlık Haberleşme</h3>
-                        <p>Shuttle, gerekli durumlarda tüm kullanıcıların (servis yöneticisi, şoför, personel, öğrenci velisi vs.) birbiriyle etkileşimli bir şekilde haberleşmesini sağlar.</p>
+                        <i class="fa fa-thumbs-up fa-2x"></i>
+                        <h3>Favori Marketler</h3>
+                        <p>Lutimark ile favori marketlerinizi seçerek sadece bu marketlerin bildirimlerini alabilirisiniz.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect2">
+                        <i class="fa fa-thumbs-o-up fa-2x"></i>
+                        <h3>Favori Ürünler</h3>
+                        <p>Lutimark ile favori kategorilerinizi(yiyecekler, içecekler, temizlik vs.) ve favori ürünlerinizi sacebilir, ve ürünleri detaylı inceleyebilirsiniz</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                             <i class="fa fa-map-marker fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Lokasyon Belirle</h3>
+                            <h3 class="media-heading">özellik1</h3>
                             Locasyon tanımlama
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             <i class="fa fa-comment-o fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Bildirimleri Al</h3>
+                            <h3 class="media-heading">özellik2</h3>
                             Bildirim tanımlama
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             <i class="fa fa-check fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Favori Marketler</h3>
+                            <h3 class="media-heading">özellik3</h3>
                             Favori market tanımlama
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <i class="fa fa-money fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Bakiye Yönetimi</h3>
+                            <h3 class="media-heading">özellik4</h3>
                             Ücret bilgileri takibi
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                             <i class="fa fa-road fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Güzergah Belirleme</h3>
+                            <h3 class="media-heading">özellik5</h3>
                             Yolculara göre yol haritası
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             <i class="fa fa-map-marker fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Lokasyon Sorgusu</h3>
+                            <h3 class="media-heading">özellik6</h3>
                             Servisin nerede olduğunu görme
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                             <i class="fa fa-bell fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Servis Yaklaştı !</h3>
+                            <h3 class="media-heading">özellik7</h3>
                             Servis yaklaştığında uyarı
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                             <i class="fa fa-envelope fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Duyuru ve Bildirimler</h3>
+                            <h3 class="media-heading">özellik8</h3>
                             Tüm kullanıcılara anlık duyuru gönderme
                         </div>
                     </div>
@@ -229,9 +229,9 @@
 
             <div class="filter scrollpoint sp-effect3">
                 <a href="javascript:void(0)" class="button js-filter-all active">Hepsi</a>
-                <a href="javascript:void(0)" class="button js-filter-one">Kullanıcı</a>
-                <a href="javascript:void(0)" class="button js-filter-two">Sosyal Ağlar</a>
-                <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
+                <a href="javascript:void(0)" class="button js-filter-one">Mobil</a>
+                <a href="javascript:void(0)" class="button js-filter-two">Tablet</a>
+                <a href="javascript:void(0)" class="button js-filter-three">Sosyal</a>
             </div>
             <div class="slider filtering scrollpoint sp-effect5" >
                 <div class="one">
@@ -287,7 +287,7 @@
             <div class="section-heading inverse scrollpoint sp-effect3">
                 <h1>Kullanmaya Başlayın</h1>
                 <div class="divider"></div>
-                <p>Android ve Iphone Plotformundan ücretsiz olarak indirebilirsiniz.</p>
+                <p>Google Play ve App Store'dan ücretsiz olarak indirebilirsiniz.</p>
             </div>
             <div class="row">
                 <div class="col-md-12">

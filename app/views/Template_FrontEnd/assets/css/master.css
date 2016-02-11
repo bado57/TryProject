@@ -18,7 +18,7 @@
 body {
   /*font-family: 'Lato', Arial;*/
   font-family: 'Open Sans', sans-serif;
-  color: #666666;
+  color: #424242;
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -43,7 +43,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: #666666;
+  color: 424242;
   font-family: 'Open Sans', sans-serif;
 }
 header .navbar-default {
@@ -167,7 +167,7 @@ header .navbar-default.scrolled ul.navbar-nav {
 }
 .section-heading p {
   font-size: 25px;
-  color: #999999;
+  color: #151515;
   font-weight: 300;
 }
 .section-heading .divider:after {
@@ -198,7 +198,7 @@ section#about .about-item {
   text-align: center;
   font-size: 17px;
   line-height: 25px;
-  color: #999999;
+  color: #151515;
 }
 section#about .about-item i.fa {
   -webkit-border-radius: 50%;
@@ -238,7 +238,7 @@ section#features .media .media-heading {
   font-weight: 300;
 }
 section#features .media .media-body {
-  color: #999999;
+  color: #151515;
 }
 section#features .media.media-left .media-body {
   text-align: right;
@@ -288,7 +288,7 @@ section#reviews .review-filtering .review .review-comment h3 {
 }
 section#reviews .review-filtering .review .review-comment p {
   font-size: 16px;
-  color: #999999;
+  color: #151515;
 }
 section#reviews .review-filtering .review .review-comment p span {
   margin-left: 10px;
@@ -457,7 +457,7 @@ section#support .media .media-heading a {
 }
 /* footer section */
 footer {
-  padding: 40px 0;
+  padding-top:40px;
   text-align: center;
 }
 footer a > img {
@@ -858,17 +858,17 @@ section#screens .slider div img {
   border: 2px solid #e5e5e5;
 }
 section#screens .slider div h4 {
-  color: #999999;
+  color: #151515;
 }
 section#screens .slider .slick-dots li button {
-  background: #999999;
+  background: #151515;
 }
 section#screens .slider .slick-dots li.slick-active button {
   background: #07ba42;
 }
 section#screens .filter a {
   border: 2px solid #cccccc;
-  color: #999999;
+  color: #151515;
 }
 section#screens .filter a:hover {
   color: #ffffff;
@@ -1017,7 +1017,7 @@ footer .rights a {
 }
 form .form-control:focus {
   border-color: #07ba42;
-  color: #999999;
+  color: #151515;
 }
 @media screen and (max-width: 640px) {
   header .navbar-default .navbar-toggle:hover,
