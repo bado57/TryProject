@@ -164,6 +164,7 @@ header .navbar-default.scrolled ul.navbar-nav {
   font-size: 55px;
   font-weight: 300;
   margin-bottom: 0;
+  color: #009933;
 }
 .section-heading p {
   font-size: 25px;
@@ -885,7 +886,8 @@ section#demo {
   background: #f6f6f6;
 }
 section#demo header h1:after {
-  background: #07ba42;
+  background: #009933;
+  color: #009933;
 }
 /* Get app Section */
 section#getApp {

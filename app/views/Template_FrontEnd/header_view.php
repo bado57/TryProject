@@ -119,7 +119,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/Slides/hand-eco.png" alt="">
                                                             </div>
 
-                                                            <div class="tp-caption lfl fadeout visible-xs"
+                                                                <div class="tp-caption lfl fadeout visible-xs"
                                                                  data-x="left"
                                                                  data-y="center"
                                                                  data-hoffset="700"
@@ -130,20 +130,20 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/iphone-eco.png" alt="">
                                                             </div>
 
-                                                            <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
-                                                                Servis
+                                                            <div class="tp-caption large_white_bold sft" data-x="600" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                                                İndirimli Ürünleri
                                                             </div>
-                                                            <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
-                                                                Kullanmanın
+                                                            <div class="tp-caption large_white_light sfr" data-x="600" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+                                                                Takip Etmenin
                                                             </div>
-                                                            <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
+                                                            <div class="tp-caption large_white_light sfb" data-x="600" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
                                                                 En Kolay Yolu
                                                             </div>
 
-                                                            <div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                                                            <div class="tp-caption sfb hidden-xs" data-x="650" data-y="center" data-hoffset="0" data-voffset="170" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
                                                                 <a href="#about" class="btn btn-primary inverse btn-lg">DETAYLAR</a>
                                                             </div>
-                                                            <div class="tp-caption sfr hidden-xs" data-x="730" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
+                                                            <div class="tp-caption sfr hidden-xs" data-x="830" data-y="center" data-hoffset="0" data-voffset="170" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
                                                                 <a href="#getApp" class="btn btn-default btn-lg">UYGULAMAYI İNDİR</a>
                                                             </div>
 
@@ -201,7 +201,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                  data-easing="Power4.easeOut">
                                                                 <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/Slides/family-eco.png" alt="">
                                                             </div>
-                                                            
+
                                                             <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
                                                                 <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
                                                             </div>
@@ -212,19 +212,10 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 Aktif Kullanım
                                                             </div>
                                                             <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
-                                                                <p>Nulla pretium libero interdum, tempus lorem non, rutrum diam. <br> Quisque pellentesque diam sed pulvinar lobortis. Vestibulum ante <br>ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                                                                <p>Lutimark, uygulamasını Android ve IOS işletim<br> sistemine sahip olan tüm tablet ve mobil cihazlarınıza</br> ücretsiz olarak yükleyebilirsiniz.</p>
                                                             </div>
-
-                                                            <div class="tp-caption lfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="160" data-speed="1000" data-start="1800" data-easing="Power4.easeOut">
-                                                                <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
-                                                            </div>
-
-
                                                     </li>
-
                                                 </ul>
                                             </div>
                                         </div>
-
-
                                     </header>
