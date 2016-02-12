@@ -10,7 +10,7 @@
             <a href="https://www.youtube.com/channel/UC1GNdT_IjsVR27ouJ3QvC4A" target="_blank" class="scrollpoint sp-effect3"><i class="fa fa-youtube fa-lg"></i></a>
         </div>
         <div class="rights">
-            <p>Lutimark.com &copy 2016  Tüm hakları saklıdır.</p>
+            <p><?php echo $data["Copyright"]; ?></p>
         </div>
     </div>
 </footer>

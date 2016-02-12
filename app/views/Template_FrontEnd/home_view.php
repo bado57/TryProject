@@ -13,28 +13,28 @@
                     <div class="about-item scrollpoint sp-effect5">
                         <i class="fa fa-map-marker fa-2x"></i>
                         <h3><?php echo $data["LokasyonBelirle"]; ?></h3>
-                        <p>Lutimark ile konumunuzu belirleyerek size en yakın popüler market, market ve mağazaların indirimlerini anında görüntüleyebilirsiniz.</p>
+                        <p><?php echo $data["lokasyonBelirleAciklama"]; ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect5">
                         <i class="fa fa-comments fa-2x"></i>
-                        <h3>Bildirimleri Al</h3>
-                        <p>Lutimark ile kayıtlı tüm popüler market , market ve mağazaların indirimli ürünlerini anında öğrenebilir, ürünleri detaylı inceleyebilirsiniz  . </p>
+                        <h3><?php echo $data["BildirimleriAl"]; ?></h3>
+                        <p><?php echo $data["BildirimleriAlAciklama"]; ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect1">
                         <i class="fa fa-cart-arrow-down fa-2x"></i>
-                        <h3>Favori Marketler</h3>
-                        <p>Lutimark ile favori marketlerinizi ve mağazalarınızı seçerek sadece bu marketlerin bildirimlerini alabilirsiniz.</p>
+                        <h3><?php echo $data["FavoriMagaza"]; ?></h3>
+                        <p><?php echo $data["FavoriMagazaAciklama"]; ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="about-item scrollpoint sp-effect2">
                         <i class="fa fa-check fa-2x"></i>
-                        <h3>Favori Ürünler</h3>
-                        <p>Lutimark ile favori kategorilerinizi(yiyecekler, içecekler, temizlik vs.) ve favori ürünlerinizi seçebilir, ürünleri detaylı inceleyebilirsiniz.</p>
+                        <h3><?php echo $data["FavoriUrunler"]; ?></h3>
+                        <p><?php echo $data["FavoriUrunlerAciklama"]; ?></p>
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
     <section id="features">
         <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
-                <h1>Özellikler</h1>
+                <h1><?php echo $data["Ozellikler"]; ?></h1>
                 <div class="divider"></div>
-                <p>Lutimark hakkında detaylı bilgi edinin.</p>
+                <p><?php echo $data["OzelliklerAciklama"]; ?></p>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-4 scrollpoint sp-effect1" style="padding-top: 50px">
@@ -54,8 +54,8 @@
                             <i class="fa fa-map-marker fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Ürün Karşılaştırma</h3>
-                            Farklı mağazalardaki ürünleri karşılaştırın.
+                            <h3 class="media-heading"><?php echo $data["UrunKarsilastir"]; ?></h3>
+                            <?php echo $data["UrunKarsilastirAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media media-left feature">
@@ -63,8 +63,8 @@
                             <i class="fa fa-question-circle fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">En Yakın Mağaza</h3>
-                            En yakın mağazaların adreslerini öğrenin.
+                            <h3 class="media-heading"><?php echo $data["YakinMagaza"]; ?></h3>
+                            <?php echo $data["YakinMagazaAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media media-left feature">
@@ -72,8 +72,8 @@
                             <i class="fa fa-star fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Özelleşmiş Arama</h3>
-                            İlgi alanlarınıza göre aramaları özelleştirin.
+                            <h3 class="media-heading"><?php echo $data["OzelArama"]; ?></h3>
+                            <?php echo $data["OzelAramaAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media media-left feature">
@@ -81,8 +81,8 @@
                             <i class="fa fa-star-o fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Yerinde Takip</h3>
-                            Evinizde indirimli ürünleri takip edin.
+                            <h3 class="media-heading"><?php echo $data["YerindeTakip"]; ?></h3>
+                            <?php echo $data["YerindeTakipAciklama"]; ?>
                         </div>
                     </div>
                 </div>
@@ -95,8 +95,8 @@
                             <i class="fa fa-road fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Mağaza Değerlendirme</h3>
-                            Mağazaların hizmetlerini oylayın.
+                            <h3 class="media-heading"><?php echo $data["Degerlendirme"]; ?></h3>
+                            <?php echo $data["DegerlendirmeAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media feature">
@@ -104,8 +104,8 @@
                             <i class="fa fa-map-marker fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Favori Ürünler</h3>
-                            Sadece favori ürünlerinizi görüntüleyebilme.
+                            <h3 class="media-heading"><?php echo $data["FavUrunler"]; ?></h3>
+                             <?php echo $data["FavUrunlerAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media feature">
@@ -113,8 +113,8 @@
                             <i class="fa fa-bell fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading"> Bildirimleri Al</h3>
-                            İndirimlerden anında haberdar olun.
+                            <h3 class="media-heading"><?php echo $data["BildirimAl"]; ?></h3>
+                            <?php echo $data["BildirimAlAciklama"]; ?>
                         </div>
                     </div>
                     <div class="media feature">
@@ -122,8 +122,8 @@
                             <i class="fa fa-envelope fa-2x"></i>
                         </a>
                         <div class="media-body">
-                            <h3 class="media-heading">Çevre Dostu</h3>
-                            Kağıt tasarrufuna sizde katkıda bulunun.
+                            <h3 class="media-heading"><?php echo $data["CevreDost"]; ?></h3>
+                            <?php echo $data["CevreDostAciklama"]; ?>
                         </div>
                     </div>
                 </div>
@@ -223,43 +223,43 @@
         <div class="container">
 
             <div class="section-heading scrollpoint sp-effect3">
-                <h1>Ekran Görüntüleri</h1>
+                <h1><?php echo $data["EkranGoruntu"]; ?></h1>
                 <div class="divider"></div>
             </div>
 
             <div class="filter scrollpoint sp-effect3">
-                <a href="javascript:void(0)" class="button js-filter-all active">Hepsi</a>
-                <a href="javascript:void(0)" class="button js-filter-one">Mobil</a>
-                <a href="javascript:void(0)" class="button js-filter-two">Tablet</a>
+                <a href="javascript:void(0)" class="button js-filter-all active"><?php echo $data["Hepsi"]; ?></a>
+                <a href="javascript:void(0)" class="button js-filter-one"><?php echo $data["Mobil"]; ?></a>
+                <a href="javascript:void(0)" class="button js-filter-two"><?php echo $data["Tablet"]; ?></a>
             </div>
             <div class="slider filtering scrollpoint sp-effect5" >
                 <div class="one">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/profile.jpg" alt="">
-                        <h4>Profile Page</h4>
+                        <h4><?php echo $data["EkranGoruntusu1"]; ?></h4>
                 </div>
                 <div class="two">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/menu.jpg" alt="">
-                        <h4>Toggel Menu</h4>
+                        <h4><?php echo $data["EkranGoruntusu2"]; ?></h4>
                 </div>
                 <div class="three">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/weather.jpg" alt="">
-                        <h4>Weather Forcast</h4>
+                        <h4><?php echo $data["EkranGoruntusu3"]; ?></h4>
                 </div>
                 <div class="one">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/signup.jpg" alt="">
-                        <h4>Sales Analysis</h4>
+                        <h4><?php echo $data["EkranGoruntusu4"]; ?></h4>
                 </div>
                 <div class="one">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/calendar.jpg" alt="">
-                        <h4>Event Calendar</h4>
+                        <h4><?php echo $data["EkranGoruntusu5"]; ?></h4>
                 </div>
                 <div class="two">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/options.jpg" alt="">
-                        <h4>Some Options</h4>
+                        <h4><?php echo $data["EkranGoruntusu6"]; ?></h4>
                 </div>
                 <div class="three">
                     <img src="<?php echo SITE_USERFRONT_IMG ?>/eco/screens/sales.jpg" alt="">
-                        <h4>Lorem ipsum dolor</h4>
+                        <h4><?php echo $data["EkranGoruntusu7"]; ?></h4>
                 </div>
             </div>
         </div>
@@ -268,9 +268,9 @@
     <section id="demo">
         <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
-                <h1>Lutimark</h1>
+                <h1><?php echo $data["Video"]; ?></h1>
                 <div class="divider"></div>
-                <p>Uygulama ayrıntılarına göz atın.</p>
+                <p><?php echo $data["VideoAciklama"]; ?></p>
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
@@ -284,9 +284,9 @@
     <section id="getApp">
         <div class="container-fluid">
             <div class="section-heading inverse scrollpoint sp-effect3">
-                <h1>Kullanmaya Başlayın</h1>
+                <h1><?php echo $data["Download"]; ?></h1>
                 <div class="divider"></div>
-                <p>Google Play ve App Store'dan ücretsiz olarak indirebilirsiniz.</p>
+                <p><?php echo $data["DownloadAciklama"]; ?></p>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -296,13 +296,13 @@
                     <div class="platforms">
                         <a href="#" class="btn btn-primary inverse scrollpoint sp-effect1">
                             <i class="fa fa-android fa-3x pull-left"></i>
-                            <span>Download for</span><br>
-                            <b>Android</b>
+                            <span><?php echo $data["DownloadAndroidÜst"]; ?></span><br>
+                            <b><?php echo $data["DownloadAndroidAlt"]; ?></b>
                         </a>
                         <a href="#" class="btn btn-primary inverse scrollpoint sp-effect2">
                             <i class="fa fa-apple fa-3x pull-left"></i>
-                            <span>Download for</span><br>
-                            <b>Apple IOS</b>
+                            <span><?php echo $data["DownloadAppleÜst"]; ?></span><br>
+                            <b><?php echo $data["DownloadAppleAlt"]; ?></b>
                         </a>
                     </div>
                 </div>
@@ -312,9 +312,9 @@
     <section id="support" class="doublediagonal">
         <div class="container">
             <div class="section-heading scrollpoint sp-effect3">
-                <h1>Bize Ulaşın</h1>
+                <h1><?php echo $data["İletisim"]; ?></h1>
                 <div class="divider"></div>
-                <p>Soru ve önerileriniz için bizimle iletişime geçin.</p>
+                <p><?php echo $data["İletisimAciklama"]; ?></p>
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -322,15 +322,15 @@
                         <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
                             <form role="form">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Ad Soyad">
+                                    <input type="text" class="form-control" placeholder="<?php echo $data["AdSoyad"]; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email">
+                                    <input type="email" class="form-control" placeholder="<?php echo $data["Email"]; ?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea cols="30" rows="10" class="form-control" placeholder="Mesajınız" style="resize:none"></textarea>
+                                    <textarea cols="30" rows="10" class="form-control" placeholder="<?php echo $data["Mesaj"]; ?>" style="resize:none"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-sm">Gönder</button>
+                                <button type="submit" class="btn btn-primary btn-sm"><?php echo $data["Gonder"]; ?></button>
                             </form>
                         </div>
                         <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
@@ -339,7 +339,7 @@
                                     <i class="fa fa-map-marker fa-2x"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h4 class="media-heading">4, Some street, California, USA</h4>
+                                    <h4 class="media-heading"><?php echo $data["Adres"]; ?></h4>
                                 </div>
                             </div>
                             <div class="media">
@@ -348,7 +348,7 @@
                                 </a>
                                 <div class="media-body">
                                     <h4 class="media-heading">
-                                        <a href="mailto:support@oleose.com">support@oleose.com</a>
+                                        <a href="mailto:support@oleose.com"><?php echo $data["MyEmail"]; ?></a>
                                     </h4>
                                 </div>
                             </div>
@@ -357,7 +357,7 @@
                                     <i class="fa fa-phone fa-2x"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h4 class="media-heading">+1 234 567890</h4>
+                                    <h4 class="media-heading"><?php echo $data["Telefon"]; ?></h4>
                                 </div>
                             </div>
                         </div>
