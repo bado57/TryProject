@@ -25,14 +25,14 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect1">
-                        <i class="fa fa-cart-arrow-down fa-2x"></i>
+                        <i class="fa fa-star fa-2x"></i>
                         <h3><?php echo $data["FavoriMagaza"]; ?></h3>
                         <p><?php echo $data["FavoriMagazaAciklama"]; ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="about-item scrollpoint sp-effect2">
-                        <i class="fa fa-check fa-2x"></i>
+                        <i class="fa fa-star-o fa-2x"></i>
                         <h3><?php echo $data["FavoriUrunler"]; ?></h3>
                         <p><?php echo $data["FavoriUrunlerAciklama"]; ?></p>
                     </div>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="media media-left feature">
                         <a class="pull-right" href="#">
-                            <i class="fa fa-star fa-2x"></i>
+                            <i class="fa fa-search fa-2x"></i>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><?php echo $data["OzelArama"]; ?></h3>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="media media-left feature">
                         <a class="pull-right" href="#">
-                            <i class="fa fa-star-o fa-2x"></i>
+                            <i class="fa fa-home fa-2x"></i>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><?php echo $data["YerindeTakip"]; ?></h3>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="media feature">
                         <a class="pull-left" href="#">
-                            <i class="fa fa-map-marker fa-2x"></i>
+                            <i class="fa fa-star-o fa-2x"></i>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><?php echo $data["FavUrunler"]; ?></h3>
@@ -110,7 +110,7 @@
                     </div>
                     <div class="media feature">
                         <a class="pull-left" href="#">
-                            <i class="fa fa-bell fa-2x"></i>
+                            <i class="fa fa-comments fa-2x"></i>
                         </a>
                         <div class="media-body">
                             <h3 class="media-heading"><?php echo $data["BildirimAl"]; ?></h3>
