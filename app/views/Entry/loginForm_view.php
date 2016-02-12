@@ -102,8 +102,9 @@
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="<?php echo $data["Sifre"]; ?>"  name="usersloginsifre">
                         </div>
-                        
-                        <button type="submit" id="loginFrom"><?php echo $data["LoginButton"]; ?></button>
+                        <div class="form-group">
+                            <button type="submit" id="loginFrom"><?php echo $data["LoginButton"]; ?></button>
+                        </div>
                     </form>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
