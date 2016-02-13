@@ -10,7 +10,7 @@ class tr {
         $trdil = array(
             "Title" => "Lutimark",
             
-            "Ozellikler" => "Özellikler",
+            "OzelliklerUst" => "Özellikler",
             "Ekranlar" => "Ekranlar",
             "Demo" => "Demo",
             "Indir" => "İndir",
@@ -45,9 +45,9 @@ class tr {
             "YakinMagaza" => "En Yakın Mağaza",
             "YakinMagazaAciklama" => "En yakın mağazaların adreslerini öğrenin",
             "OzelArama" => "Özelleşmiş Arama",
-            "OzelAramaAciklama" => "İlgi alanlarınız aramaları özelleştirina göre aramaları özelleştirin",
+            "OzelAramaAciklama" => "İlgi alanlarınıza göre aramalarınızı özelleştirin",
             "YerindeTakip" => "Yerinde Takip",
-            "YerindeTakipAciklama" => "İlgi alanlarınız aramaları özelleştirina göre aramaları özelleştirin",
+            "YerindeTakipAciklama" => "İndirimleri evinizde takip edin",
             "Degerlendirme" => "Mağaza Değerlendirme",
             "DegerlendirmeAciklama" => "Mağazaların hizmetlerini oylayın",
             "FavUrunler" => "Favori Ürünler",
