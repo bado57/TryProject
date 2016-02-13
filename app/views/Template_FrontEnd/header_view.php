@@ -55,9 +55,16 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <header>
 
                                         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                                             
                                             <div class="container">
+                                                 
+                                                <select id="kullaniciLanguage" class="form-control" name="loginselected" required>                  
+                                                                <option value="en" <?php echo Session::get('dil') == 'en' ? 'selected' : ''; ?>>English</option>
+                                                                <option value="tr" <?php echo Session::get('dil') == 'tr' ? 'selected' : ''; ?>>Turkish</option>
+                                                            </select>
                                                 <!-- Brand and toggle get grouped for better mobile display -->
                                                 <div class="navbar-header">
+                                                    
                                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                                         <span class="fa fa-bars fa-lg"></span>
                                                     </button>
@@ -71,10 +78,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                                     <ul class="nav navbar-nav navbar-right">
                                                         <li>
-                                                            <select id="kullaniciLanguage" class="form-control" name="loginselected" required>                  
-                                                                <option value="en" <?php echo Session::get('dil') == 'en' ? 'selected' : ''; ?>>English</option>
-                                                                <option value="tr" <?php echo Session::get('dil') == 'tr' ? 'selected' : ''; ?>>Turkish</option>
-                                                            </select>
+                                                           
                                                         </li>
                                                         <li><a href="#about"><?php echo $data["Hakkinda"]; ?></a>
                                                         </li>

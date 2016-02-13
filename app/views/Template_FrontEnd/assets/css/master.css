@@ -58,7 +58,7 @@ header .navbar-default {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default ul.navbar-nav {
-  padding-top: 55px;
+  padding-top: 25px;
 }
 header .navbar-default ul.navbar-nav li a {
   text-transform: capitalize;

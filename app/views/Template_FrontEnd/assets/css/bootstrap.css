@@ -13,6 +13,25 @@ html {
 body {
   margin: 0;
 }
+#kullaniciLanguage{
+    width:150px;
+    position:relative;
+    float:right;
+    top:-40px;
+    border: none;
+    border-radius: 0;
+    /* background: #009933; */
+    color: white;
+    border: none;
+    border-radius: 0;
+    background: #009933;
+    color: white;
+     -webkit-appearance: none;
+    appearance: none;
+    }
+#kullaniciLanguage::-ms-expand {
+    display: none;
+}
 article,
 aside,
 details,
