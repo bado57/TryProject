@@ -78,7 +78,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                         </li>
                                                         <li><a href="#about"><?php echo $data["Hakkinda"]; ?></a>
                                                         </li>
-                                                        <li><a href="#features"><?php echo $data["Ozellikler"]; ?></a>
+                                                        <li><a href="#features"><?php echo $data["OzelliklerUst"]; ?></a>
                                                         </li>
                                                         <!--<li><a href="#reviews">Yorumlar</a>
                                                         </li>-->
