@@ -25,14 +25,14 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6" >
                     <div class="about-item scrollpoint sp-effect1">
-                        <i class="fa fa-star fa-2x"></i>
+                        <i class="fa fa-shopping-cart fa-2x"></i>
                         <h3><?php echo $data["FavoriMagaza"]; ?></h3>
                         <p><?php echo $data["FavoriMagazaAciklama"]; ?></p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="about-item scrollpoint sp-effect2">
-                        <i class="fa fa-star-o fa-2x"></i>
+                        <i class="fa fa-star fa-2x"></i>
                         <h3><?php echo $data["FavoriUrunler"]; ?></h3>
                         <p><?php echo $data["FavoriUrunlerAciklama"]; ?></p>
                     </div>
